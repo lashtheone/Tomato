@@ -3,7 +3,7 @@
 #include "Core.h"
 
 namespace Tomato {
-	class Tomato_API APP
+	class TOMATO_API APP
 	{
 	public:
 		APP();

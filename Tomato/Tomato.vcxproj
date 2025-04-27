@@ -55,8 +55,9 @@
     <ClCompile>
       <WarningLevel>Level3</WarningLevel>
       <SDLCheck>true</SDLCheck>
-      <PreprocessorDefinitions>TMT_PLATFORM_WINDOWS;TMT_BUILD_DLL</PreprocessorDefinitions>
+      <PreprocessorDefinitions>TMT_PLATFORM_WINDOWS;TMT_BUILD_DLL;_SILENCE_STDEXT_ARR_ITERS_DEPRECATION_WARNING</PreprocessorDefinitions>
       <ConformanceMode>true</ConformanceMode>
+      <AdditionalIncludeDirectories>$(SolutionDir)Tomato\vendor\spdlog\include</AdditionalIncludeDirectories>
     </ClCompile>
     <Link>
       <SubSystem>Console</SubSystem>
@@ -69,8 +70,9 @@
       <FunctionLevelLinking>true</FunctionLevelLinking>
       <IntrinsicFunctions>true</IntrinsicFunctions>
       <SDLCheck>true</SDLCheck>
-      <PreprocessorDefinitions>TMT_PLATFORM_WINDOWS;TMT_BUILD_DLL</PreprocessorDefinitions>
+      <PreprocessorDefinitions>TMT_PLATFORM_WINDOWS;TMT_BUILD_DLL;_SILENCE_STDEXT_ARR_ITERS_DEPRECATION_WARNING</PreprocessorDefinitions>
       <ConformanceMode>true</ConformanceMode>
+      <AdditionalIncludeDirectories>$(SolutionDir)Tomato\vendor\spdlog\include</AdditionalIncludeDirectories>
     </ClCompile>
     <Link>
       <SubSystem>Console</SubSystem>
@@ -80,12 +82,14 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClInclude Include="src\Tomato\Log.h" />
     <ClInclude Include="src\Tomato.h" />
     <ClInclude Include="src\Tomato\APP.h" />
     <ClInclude Include="src\Tomato\Core.h" />
     <ClInclude Include="src\Tomato\EntryPoint.h" />
   </ItemGroup>
   <ItemGroup>
+    <ClCompile Include="src\Tomato\Log.cpp" />
     <ClCompile Include="src\Tomato\APP.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />

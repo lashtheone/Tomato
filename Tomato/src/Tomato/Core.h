@@ -2,9 +2,9 @@
 
 #ifdef TMT_PLATFORM_WINDOWS
 	#ifdef TMT_BUILD_DLL
-		#define Tomato_API __declspec(dllexport)
+		#define TOMATO_API __declspec(dllexport)
 	#else
-		#define Tomato_API __declspec(dllimport)
+		#define TOMATO_API __declspec(dllimport)
 
 	#endif
 

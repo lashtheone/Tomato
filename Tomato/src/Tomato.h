@@ -4,6 +4,7 @@
 
 #include <stdio.h>
 #include "Tomato/APP.h"
+#include "Tomato/Log.h"
 
 
 // ---Entry Point------------------------
