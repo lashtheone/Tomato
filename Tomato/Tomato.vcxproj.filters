@@ -4,6 +4,9 @@
     <Filter Include="Tomato">
       <UniqueIdentifier>{D96AE6D3-C50C-11AA-AEC7-24FE9A0898FA}</UniqueIdentifier>
     </Filter>
+    <Filter Include="Tomato\Events">
+      <UniqueIdentifier>{9D488E06-0909-0A3D-D243-53BA3EC34E19}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="src\Tomato.h" />
@@ -15,6 +18,12 @@
     </ClInclude>
     <ClInclude Include="src\Tomato\EntryPoint.h">
       <Filter>Tomato</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Tomato\Events\APPEvent.h">
+      <Filter>Tomato\Events</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Tomato\Events\Event.h">
+      <Filter>Tomato\Events</Filter>
     </ClInclude>
     <ClInclude Include="src\Tomato\Log.h">
       <Filter>Tomato</Filter>
