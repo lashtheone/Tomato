@@ -18,6 +18,8 @@ project "Tomato"
 	targetdir ("bin/" .. outputdir .. "/%{prj.name}")
 	objdir ("bin-int/" .. outputdir .. "/%{prj.name}")
 
+	pchheader "tmtpch.h"
+	pchsource "Tomato/src/tmtpch.cpp"
 	files
 	{
 		"%{prj.name}/src/**.h",

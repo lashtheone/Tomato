@@ -146,6 +146,7 @@
     </PostBuildEvent>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClInclude Include="src\tmtpch.h" />
     <ClInclude Include="src\Tomato.h" />
     <ClInclude Include="src\Tomato\APP.h" />
     <ClInclude Include="src\Tomato\Core.h" />
@@ -157,6 +158,7 @@
     <ClInclude Include="src\Tomato\Log.h" />
   </ItemGroup>
   <ItemGroup>
+    <ClCompile Include="src\tmtpch.cpp" />
     <ClCompile Include="src\Tomato\APP.cpp" />
     <ClCompile Include="src\Tomato\Log.cpp" />
   </ItemGroup>
