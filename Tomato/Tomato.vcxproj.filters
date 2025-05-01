@@ -25,12 +25,18 @@
     <ClInclude Include="src\Tomato\Events\Event.h">
       <Filter>Tomato\Events</Filter>
     </ClInclude>
+    <ClInclude Include="src\Tomato\Events\KeyEvent.h">
+      <Filter>Tomato\Events</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Tomato\Events\MouseEvent.h">
+      <Filter>Tomato\Events</Filter>
+    </ClInclude>
     <ClInclude Include="src\Tomato\Log.h">
       <Filter>Tomato</Filter>
     </ClInclude>
-    <ClInclude Include="src\Tomato\Events\KeyEvent.h" />
-    <ClInclude Include="src\Tomato\Events\MouseEvent.h" />
     <ClInclude Include="src\tmtpch.h" />
+    <ClInclude Include="src\Tomato\Window.h" />
+    <ClInclude Include="src\Platform\Windows\WIndowsWindow.h" />
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="src\Tomato\APP.cpp">
@@ -40,5 +46,6 @@
       <Filter>Tomato</Filter>
     </ClCompile>
     <ClCompile Include="src\tmtpch.cpp" />
+    <ClCompile Include="src\Platform\Windows\WIndowsWindow.cpp" />
   </ItemGroup>
 </Project>

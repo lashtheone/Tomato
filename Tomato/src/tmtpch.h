@@ -12,6 +12,8 @@
 #include <unordered_map>
 #include <unordered_set>
 
+#include "Tomato/Log.h"
+
 #ifdef TMT_PLATFORM_WINDOWS
 	#include <Windows.h>
 #endif
